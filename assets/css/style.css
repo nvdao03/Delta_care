@@ -414,3 +414,48 @@ a {
     color: #2e80ce;
     font-weight: 400;
 }
+
+/* ==================== Feature ==================== */
+.feature {
+    padding: 60px 0;
+    margin: 110px 0;
+}
+
+.feature-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-imgs {
+    width: 49%;
+    height: 491px;
+    position: relative;
+}
+
+.feature-imgs__img {
+    width: 512px;
+    height: 370px;
+    object-fit: cover;
+}
+
+.feature-imgs__img--thumb {
+    position: absolute;
+    width: 332px;
+    height: 370px;
+    object-fit: cover;
+    bottom: 0;
+    right: 0;
+}
+
+.feature-content {
+    width: 40%;
+}
+
+.feature-content__desc {
+    margin-top: 18px;
+}
+
+.feature-content__cta {
+    margin-top: 38px;
+}
