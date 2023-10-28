@@ -530,8 +530,8 @@ a {
 
 /* ==================== App ==================== */
 .app {
-    padding-top: 60px;
-    margin-top: 110px;
+    padding: 60px 0;
+    margin: 110px 0;
 }
 
 .app-body {
@@ -585,4 +585,100 @@ a {
 
 .app-info__col--android {
     margin-right: 28px;
+}
+
+/* ==================== News ==================== */
+.news {
+}
+
+.new-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-content {
+    width: 40%;
+}
+
+.new-heading {
+    color: #10375c;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2; /* 120% */
+    letter-spacing: -1px;
+}
+
+.new-link {
+    display: inline-block;
+    color: #10375c;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.55; /* 155.556% */
+    text-decoration-line: underline;
+    margin-top: 28px;
+}
+
+.new-arrow {
+    display: flex;
+    margin-top: 28px;
+}
+
+.new-arrow__left {
+    margin-right: 18px;
+}
+
+.new-list {
+    display: flex;
+    gap: 0 30px;
+}
+
+.new-item {
+    width: 270px;
+    border-radius: 12px;
+    border: 1px solid #e8ebee;
+}
+
+.new-item:hover {
+    border-radius: 12px;
+    box-shadow: 0px 18px 50px 0px rgba(0, 0, 0, 0.05);
+}
+
+.new-item:hover .new-item-body__link {
+    color: #2e80ce;
+}
+
+.new-item__body {
+    padding: 18px 24px;
+}
+
+.new-item__img {
+    width: 270px;
+    height: 172px;
+    object-fit: cover;
+}
+
+.new-item-body__heading {
+    color: #10375c;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.62; /* 162.5% */
+}
+
+.new-item-body__desc {
+    width: 226px;
+    color: #575f66;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.71; /* 171.429% */
+    margin-top: 10px;
+}
+
+.new-item-body__link {
+    display: inline-block;
+    color: #10375c;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-top: 12px;
 }
