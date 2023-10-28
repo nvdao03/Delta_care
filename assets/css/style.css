@@ -682,3 +682,50 @@ a {
     font-weight: 400;
     margin-top: 12px;
 }
+
+/* ==================== Appoiment ==================== */
+.appoiment {
+    padding: 60px 0;
+    margin: 110px 0;
+}
+
+.appoiment-content {
+    text-align: center;
+    padding: 100px 0;
+    background: #f6fbff;
+}
+
+.appoiment-content__heading {
+    color: #10375c;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2; /* 120% */
+    letter-spacing: -1px;
+}
+
+.appoiment-content__heading::after {
+    position: relative;
+    content: "";
+    display: block;
+    width: 136px;
+    height: 2px;
+    background: #2e80ce;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 18px;
+}
+
+.appoiment-content__desc {
+    width: 617px;
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75; /* 175% */
+    margin-top: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.appoiment-content__action {
+    margin-top: 38px;
+}
