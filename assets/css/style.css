@@ -527,3 +527,62 @@ a {
 .dentist-arrow__right {
     cursor: pointer;
 }
+
+/* ==================== App ==================== */
+.app {
+    padding-top: 60px;
+    margin-top: 110px;
+}
+
+.app-body {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 477px;
+    border-radius: 4px;
+    background: #2e80ce;
+}
+
+.app-media {
+}
+
+.app-media__img {
+    position: absolute;
+    left: 70px;
+    bottom: 0;
+    width: 284px;
+    height: 522px;
+    object-fit: cover;
+}
+
+.app-info {
+    width: 50%;
+    margin-left: 514px;
+}
+
+.app-info__heading {
+    width: 489px;
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2; /* 120% */
+    letter-spacing: -1px;
+}
+
+.app-info__desc {
+    width: 586px;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.6; /* 166.667% */
+    margin-top: 18px;
+}
+
+.app-info__row {
+    display: flex;
+    margin-top: 38px;
+}
+
+.app-info__col--android {
+    margin-right: 28px;
+}
